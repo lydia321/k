@@ -1,1 +1,6 @@
-Hello World
+Scenario: You are working on a feature branch and you need to switch to a different branch to address an urgent bug fix. However, you have some uncommitted changes in your working directory that you don't want to lose.
+
+Question: How can you make sure you don’t lose your changes
+- You can use the git stash command to stash your uncommitted changes. This will save your changes to a temporary location so that you can switch to a different branch without losing them
+Question: After switching back to your feature branch, you want to apply the changes you stashed earlier. What command would you use to retrieve the changes? 
+- Git stash apply
